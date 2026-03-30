@@ -1,0 +1,1 @@
+update dbo.Prod set rank1 = (select distinct dbo.rank.rank1 from dbo.rank where dbo.prod.prodid = dbo.rank.prodid)

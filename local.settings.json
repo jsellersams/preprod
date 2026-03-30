@@ -1,0 +1,11 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "FUNCTIONS_WORKER_RUNTIME": "python",
+    "CSV_INGEST_SCHEDULE": "0 */5 * * * *",
+    "SQL_CONNECTION_STRING": "Server=tcp:amssqlc.database.windows.net,1433;Database=Eclipse;",
+    "BATCH_SIZE": "2",
+    "SQL_TIMEOUT_SEC": "30"
+  }
+}
